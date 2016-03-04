@@ -6,19 +6,50 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/rangeslider.css" />
   </head>
   <body>
     <!-- Sidebar -->
     <div class="sidebar">
-      <div id="intro">
+      <div id="slide1">
         <h1>Philadelphia <br>Fireplace Bar Map</h1>
-        <p class="main"></p>
-        <p></p>
+        <p class="main">Let's help you find the best bar to check out in Philly with a fireplace.</p>
+        <p>Mapped out are ALL the bars, but let's click over to the next slide and narrow things down a little based on Yelp reviews.</p>
       </div>
+      <div id="slide2" style="display: none;">
+          <h1 class="day-of-week">Filter by Stars</h1>
+          <p class="main"> We can filter by stars on Yelp.
+          </p> Select the minimum number of Yelp stars that you would like your bar to have. Ratings range between 1 and 5.
+          <br>
+          <br>
+          Numeric filter:
+          <br>
+          <br>
+          <input id="num1" type="number" name="num1" value="">
+          <br><br><br><br>
+          <button id="my-button">Plot Data</button>
+      </div>
+      <div id="slide3" style="display: none;">
+        <h1 class="day-of-week">Filter by Stars</h1>
+        <p class="main">EVERYthingISWORKING yeSSS <span>
+        Day of Week</span>.</p>
+      </div>
+        <!--<div id="slider"></div> -->
+      <div id="slide4" style="display: none;">
+        <h1 class="day-of-week">Filter by Stars</h1>
+        <p class="main">F'n Slide 4 <span>
+        Day of Week</span>.</p>
+      </div>
+      <div id="slide5" style="display: none;">
+        <h1 class="day-of-week">Filter by Stars</h1>
+        <p class="main">Five is the last one <span>
+        Day of Week</span>.</p>
+      </div>
+
       <div id="buttons">
-    <button>Previous</button>
-    <button>Next</button>
-  </div>
+        <button id="button-previous">Previous</button>
+        <button id="button-next">Next</button>
+      </div>
     </div>
     <!-- Map -->
     <div id="map" class="map"></div>
@@ -28,6 +59,9 @@
     <script src="js/jquery-2.2.0.js"></script>
     <script src="js/underscore.js"></script>
     <script src="js/leaflet.js"></script>
+    <script src="js/setup.js"></script>
+    <script src="js/application.js"></script>
     <script src="js/main.js"></script>
+
   </body>
 </html>

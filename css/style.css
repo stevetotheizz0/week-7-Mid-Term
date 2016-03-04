@@ -32,6 +32,23 @@ p.main {
   bottom: 0;
 }
 
+#my-button {
+  position: relative;
+  display: inline-block;
+}
+
+#wrapper {
+  position: relative;
+  width: 400px;
+  display: inline;
+}
+
+input {
+  position: relative;
+  display: inline-block;
+}
+
+
 button {
   background-color: #008CBA; /* Blue */
   border: none;
