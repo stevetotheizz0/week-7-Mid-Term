@@ -32,7 +32,7 @@ p.main {
   bottom: 0;
 }
 
-#my-button {
+.my-button {
   position: relative;
   display: inline-block;
 }
