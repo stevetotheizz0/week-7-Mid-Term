@@ -27,10 +27,32 @@ p.main {
     font-size: 16px;
 }
 
-#buttons{
+#num1{
+
+}
+
+#plotData {
+  padding-top: 50px;
+}
+
+
+#button_wrapper{
   position: absolute;
   bottom: 0;
+  width: 250px;
 }
+
+#button-previous {
+  width: 48%;
+  position: absolute;
+  float: left;
+}
+#button-next {
+  width: 48%;
+  postition: absolute;
+  float: right;
+}
+
 
 .my-button {
   position: relative;

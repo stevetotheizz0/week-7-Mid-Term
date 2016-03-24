@@ -15,6 +15,18 @@ var showPrevious = function() {
   switchPrev();
 };
 
+var fireIcon = L.icon({
+    iconUrl: 'fire.png',
+    shadowUrl: 'marker-shadow.png',
+
+    iconSize:     [32, 32], // size of the icon
+    shadowSize:   [20, 26], // size of the shadow
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
+
+
 var switchNext = function(){
   switch (currentPage) {
       case '#slide1':
@@ -129,7 +141,8 @@ var setUpSlide5 = function(){
       return feature.properties.Num_Reviews >= numericField2;
   },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup(fireplaceCheckbox);}
+      layer.bindPopup(fireplaceCheckbox);
+    }
     }).addTo(map).on('click', function(e) {
       map.setView(e.latlng, 20, {animate: true});
     });
@@ -143,11 +156,18 @@ var fireplaceInput = function(){alert('Great Job! Thanks for letting us know all
 var getAndParseData = function() {
   $(document).ready(function() {
     $.ajax(dataset).done(function(data) {
-      parsedData = JSON.parse(data);
-      myFeatureGroup = L.geoJson(parsedData).addTo(map);
+      parsedData = JSON.parse(data
+      );
+      myFeatureGroup = L.geoJson(parsedData,
+      {pointToLayer: function (feature, latlng) {return L.marker(latlng, {icon: fireIcon });}}
+      ).addTo(map);
     });
   });
 };
+
+
+
+
 
 var resetMap = function() {
   map.removeLayer(myFeatureGroup);

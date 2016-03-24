@@ -1,0 +1,52 @@
+ID,Name,Rating,Num_Reviews,Address,City,,, lat, lon
+1,XFINITY Live! Philadelphia,3,210,1100 Pattison Ave,Philadelphia,PA,19148,39.90348144,-75.16928315
+2,Fireside Tavern,4,8,2701 S Marshall St,Philadelphia,PA,19148,39.9149704,-75.15851593
+3,Stogie Joe's Tavern,4,168,1801 E Passyunk Ave,Philadelphia,PA,19148,39.9274292,-75.1661835
+4,the Pub on Passyunk East,4,367,1501 E Passyunk Ave,Philadelphia,PA,19147,39.93081665,-75.16201782
+5,Devil's Den,3.5,382,1148 S 11th St,Philadelphia,PA,19147,39.93581009,-75.1620636
+6,Catahoula,4,227,775 S Front St,Philadelphia,PA,19147,39.937879,-75.1445339
+7,Robert's Twi-Lite Lounge,4,22,700 S 20th St,Philadelphia,PA,19146,39.9438896,-75.1754532
+8,Brauhaus Schmitz,4,528,718 South St,Philadelphia,PA,19147,39.942073,-75.154617
+9,The Library Bar,4,13,The Rittenhouse Hotel,Philadelphia,PA,19103,39.949901,-75.173049
+10,Ten Stone Bar & Restaurant,3,247,2063 South St,Philadelphia,PA,19146,39.94521,-75.1768
+11,Fado Irish Pub & Restaurant,3.5,339,1500 Locust St,Philadelphia,PA,19102,39.9482307,-75.1666718
+12,Black Sheep Pub & Restaurant,3.5,236,247 S 17th St,Philadelphia,PA,19103,39.9484024,-75.16925812
+13,Misconduct Tavern,3.5,284,1511 Locust St,Philadelphia,PA,19102,39.948662,-75.166634
+14,Zavino,4,576,112 S 13th St,Philadelphia,PA,19107,39.9499397,-75.1621704
+15,Knock,3.5,102,225 S 12th St,Philadelphia,PA,19107,39.94790576,-75.16067728
+16,XIX - Nineteen,3.5,429,200 S Broad St,Philadelphia,PA,19102,39.9490509,-75.1648483
+17,ICandy,3,62,254 S 12th St,Philadelphia,PA,19107,39.9470215,-75.1612091
+18,Moriarty's Restaurant and Irish Pub,3.5,422,1116 Walnut St,Philadelphia,PA,19107,39.94859,-75.15987
+19,Stratus Lounge,3,145,433 Chestnut St,Philadelphia,PA,19106,39.94909848,-75.14907971
+20,Sassafras Bar,4,207,48 S 2nd St,Philadelphia,PA,19106,39.948832,-75.144063
+21,Rotten Ralph's,2.5,122,201 Chestnut St,Philadelphia,PA,19106,39.94843483,-75.14421858
+22,The Lodge at Blue Cross RiverRink Winterfest,4,43,101 S Columbus Blvd,Philadelphia,PA,19106,39.9482668,-75.13992375
+23,City Tap House,3.5,500,3925 Walnut St,Philadelphia,PA,19104,39.954153,-75.201846
+24,Harvest Seasonal Grill & Wine Bar - Philadelphia,3.5,207,40th & Walnut St,Philadelphia,PA,19104,39.95414226,-75.2027187
+25,1 Tippling Place,4,194,2006 Chestnut St,Philadelphia,PA,19103,39.951859,-75.173882
+26,Tinto,4,640,114 S 20th St,Philadelphia,PA,19103,39.951432,-75.173648
+27,The Bards,3.5,150,2013 Walnut St,Philadelphia,PA,19103,39.95082,-75.17424
+28,Raven Lounge,3.5,151,1718 Sansom St,Philadelphia,PA,19103,39.950653,-75.169586
+29,Continental Mid-town,3.5,1051,1801 Chesnut St,Philadelphia,PA,19103,39.9519043,-75.1704483
+30,Oh Shea's Pub,3.5,43,1907 Sansom St,Philadelphia,PA,19103,39.95117538,-75.17233081
+31,Devil's Alley Bar & Grille,3.5,564,1907 Chestnut St,Philadelphia,PA,19103,39.95211,-75.172203
+32,Liberté Lounge,3.5,42,120 S 17th St,Philadelphia,PA,19103,39.950802,-75.1690105
+33,McGillin's Olde Ale House,4,580,1310 Drury St,Philadelphia,PA,19107,39.950187,-75.162536
+34,Continental Restaurant and Martini Bar,3.5,479,138 Market St,Philadelphia,PA,19106,39.949687,-75.143635
+35,Landmark Americana,3,214,3333 Market St,Philadelphia,PA,19104,39.95611491,-75.19099936
+36,Hop Sing Laundromat,4,499,1029 Race St,Philadelphia,PA,19107,39.9556427,-75.1568527
+37,Zee Bar,2.5,41,100 Spring Garden St,Philadelphia,PA,19123,39.9595184,-75.1394272
+38,St. Stephen's Green,3.5,146,1701 Green St,Philadelphia,PA,19130,39.9646285,-75.166045
+39,The Institute,3.5,145,549 N 12th St,Philadelphia,PA,19123,39.962848,-75.15731
+40,Standard Tap,4,592,901 N 2nd St,Philadelphia,PA,19123,39.96414,-75.1404699
+41,Bourbon & Branch,4,119,705 N 2nd St,Philadelphia,PA,19123,39.96207,-75.14104
+42,Jerry's Bar,4,203,129 Laurel St,Philadelphia,PA,19123,39.9651413,-75.1389236
+43,Bridgid's,4,197,726 N 24th St,Philadelphia,PA,19130,39.968481,-75.176917
+44,Fare,3.5,280,2028 Fairmount Ave,Philadelphia,PA,19130,39.967061,-75.171243
+45,Frankford Hall,4,647,1210 Frankford Ave,Philadelphia,PA,19125,39.969539,-75.1346
+46,Kings Oak,4,59,1031 Germantown Ave,Philadelphia,PA,19123,39.96628225,-75.13850883
+47,Martha,4.5,23,2113 E York St,Philadelphia,PA,19125,39.98222,-75.12809
+48,Falls Taproom,3.5,186,3749 Midvale Ave,Philadelphia,PA,19129,40.00922954,-75.1938631
+49,Ugly Moose,4,116,443 Shurs Ln,Philadelphia,PA,19128,40.0254288,-75.2114563
+50,Mermaid Inn,3,14,7673 Germantown Ave,Philadelphia,PA,19118,40.0670547,-75.196312
+51,Tavern on the Hill,4,84,8636 Germantown Ave,Philadelphia,PA,19118,40.0770874,-75.2087326

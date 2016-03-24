@@ -17,30 +17,28 @@
         <p>Mapped out are ALL the bars, but let's click over to the next slide and narrow things down a little based on Yelp reviews.</p>
       </div>
       <div id="slide2" style="display: none;">
+        <div>
         <h1 class="day-of-week">Filter by Stars</h1>
         <p class="main"> We can filter by stars on Yelp.
         </p> Select the minimum number of Yelp stars that you would like your bar to have. Ratings range between 1 and 5.
-        <br>
-        <br>
+        <br><br>
         Numeric filter:
-        <br>
-        <br>
         <input id="num1" type="number" name="num1" value="">
-        <br><br><br><br>
+      </div>
+        <div id="plotData">
         <button class="my-button">Plot Data</button>
+        </div>
       </div>
       <div id="slide3" style="display: none;">
         <h1 class="day-of-week">Which are the most popular?</h1>
         <p class="main">Great! Now that we've set the bar (get it?) let's filter the list further.</p>
         <p>Set the filter for the least number of Yelp reviews you want.  This will give you all the most popular bars.</p>
-        <br>
-        <br>
+        <br><br>
         Numeric filter:
-        <br>
-        <br>
         <input id="num2" type="number" name="num2" value="">
-        <br><br><br><br>
+        <div id="plotData">
         <button class="my-button">Plot Data</button>
+        </div>
       </div>
         <!--<div id="slider"></div> -->
       <div id="slide4" style="display: none;">
@@ -62,7 +60,7 @@
           (If it turns out there wasn't a firepace, check it off and we'll remove this guy from the map.)
       </div>
 
-      <div id="buttons">
+      <div id="button_wrapper">
         <button id="button-previous">Previous</button>
         <button id="button-next">Next</button>
       </div>
